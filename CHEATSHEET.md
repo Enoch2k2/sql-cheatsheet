@@ -21,6 +21,12 @@
 - LIMIT(number) will limit the query based on what number you give
 - SELECT (column) FROM table_name INNER JOINS other_table_name ON other_table_name.id = table.other_table_name_id (will associate the queries based on forgeign keys)
 
+# Useful Sqlite3 Commands
+- All of these commands inside the database prompt (after typing sqlite3 database_name to go into your database)
+- `.mode column` sets the queries into columns
+- `.headers on` displays the headers of each column
+- `.width auto` automatically adjust the width of each column to display correctly (and not look gross)
+
 # Examples:
 ## Tables
 ### Creating a table:
