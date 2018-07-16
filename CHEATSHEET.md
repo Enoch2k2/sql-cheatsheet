@@ -26,6 +26,7 @@
 - `.mode column` sets the queries into columns
 - `.headers on` displays the headers of each column
 - `.width auto` automatically adjust the width of each column to display correctly (and not look gross)
+- `.exit` to exit sqlite3
 
 # Examples:
 ## Tables
