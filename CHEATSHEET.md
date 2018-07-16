@@ -1,7 +1,7 @@
 # SQL CheatSheet
 - SQLITE3 is a type of database we use in order to store data
   - to get into sqlite3 you will need in the terminal to type sqlite3 database_name (you can choose what database_name you would want to give it)
-- CREATING FILES TO DO QUERIES WHEN READ
+- Creating Files to do sql
   - you can create new files to do the queries in, they need to have the .sql extension to that file. You might have a create_pets.sql file that has the sql for creating your table and another file insert_pets.sql for inserting new pets to the database. To run the files and update your database simple type sqlite3 < file_name.sql
 - CREATE TABLE table_name (values);
 - ALTER TABLE table_name ADD column datatype;
